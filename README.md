@@ -5,6 +5,7 @@ Based on [this Kaggle Competition](https://www.kaggle.com/c/hubmap-kidney-segmen
 
 ## File Spec
  - data/ contains part of the data from kaggle competition in same structure
+ - feature_extractor.py extracts images
  - truth_extractor.py extracts the FTU segments from JSON files
  - visualizer.py displays an image
  - rle_encoder.py writes the submission file
