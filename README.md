@@ -11,3 +11,5 @@ Based on [this Kaggle Competition](https://www.kaggle.com/c/hubmap-kidney-segmen
  - Henry Wu
  - Allan Bishop
 
+## License
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
