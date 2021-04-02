@@ -17,6 +17,8 @@ Based on [this Kaggle Competition](https://www.kaggle.com/c/hubmap-kidney-segmen
    + `xxxxxxxxx-anatomical-structures.json` contains the medulla polygon coordinates
    + `xxxxxxxxx.tiff` contains the image
 
+**The `train.csv` file contains the same data as the .json file**
+
 ## Contributors
  - Shaumik Ashraf
  - Henry Wu
