@@ -4,7 +4,10 @@ Image segmentation for glomerulii recognition on kidney tissue
 Based on [this Kaggle Competition](https://www.kaggle.com/c/hubmap-kidney-segmentation)
 
 ## File Spec
- - data/ is in .gitignore file, it contains data from kaggle competition.
+ - data/ contains part of the data from kaggle competition in same structure
+ - truth_extractor.py extracts the FTU segments from JSON files
+ - visualizer.py displays an image
+ - rle_encoder.py writes the submission file
 
 ## Contributors
  - Shaumik Ashraf
