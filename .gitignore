@@ -1,5 +1,6 @@
-# Ignore data/train/ because files are too large
+# Ignore data/train/ and data/test/ because files are too large
 data/train/
+data/test/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

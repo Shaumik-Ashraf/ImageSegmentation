@@ -3,21 +3,19 @@ Image segmentation for glomerulii recognition on kidney tissue
 
 Based on [this Kaggle Competition](https://www.kaggle.com/c/hubmap-kidney-segmentation)
 
-## File Spec
- - `data/` contains part of the data from kaggle competition in same structure
-   + you should create a `data/train/` folder that contains a *.json and *.tiff 
- - `feature_extractor.py` extracts images
- - `truth_extractor.py` extracts the FTU segments from JSON files
- - `visualizer.py` displays an image
- - `rle_encoder.py` writes the submission file
+[TransUNet](https://github.com/Beckschen/TransUNet)
 
-## Data format
- - in `data/train/` (you must add these files:)
-   + `xxxxxxxxx.json` contains the glomerulii polygon coordinates
-   + `xxxxxxxxx-anatomical-structures.json` contains the medulla polygon coordinates
-   + `xxxxxxxxx.tiff` contains the image
+## TODO
+ - make preprocessing code that chunks big images and preserves masking
+ - make pytorch dataset class
+ - try pretrained TransUNet on test set
+ - fine tune TransUNet by training on train set
 
-**The `train.csv` file contains the same data as the .json file**
+## Setup
+ - clone and cd into repo
+ - `mkdir data/train`
+ - `mkdir data/test`
+ - add .json and .tiff files into train/ and test/ from Kaggle
 
 ## Contributors
  - Shaumik Ashraf
