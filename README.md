@@ -6,16 +6,13 @@ Based on [this Kaggle Competition](https://www.kaggle.com/c/hubmap-kidney-segmen
 [TransUNet](https://github.com/Beckschen/TransUNet)
 
 ## TODO
- - make preprocessing code that chunks big images and preserves masking
- - make pytorch dataset class
- - try pretrained TransUNet on test set
- - fine tune TransUNet by training on train set
+ - run `unet.ipynb` on gpu
+ - edit and run `transunet.ipynb`
 
 ## Setup
  - clone and cd into repo
- - `mkdir data/train`
- - `mkdir data/test`
- - add .json and .tiff files into train/ and test/ from Kaggle
+ - `mkdir data/small`
+ - add preprocessed images and masks into data/small/images and data/small/masks respectively
 
 ## Contributors
  - Shaumik Ashraf
