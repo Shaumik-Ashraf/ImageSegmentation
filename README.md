@@ -7,7 +7,7 @@ Based on [this Kaggle Competition](https://www.kaggle.com/c/hubmap-kidney-segmen
 
 ## TODO
  - run `unet.ipynb` on gpu
- - edit and run `transunet.ipynb`
+ - **edit** and run `transunet.ipynb`
 
 ## Setup
  - clone and cd into repo
