@@ -1,0 +1,3 @@
+[submodule "TransUNet"]
+	path = TransUNet
+	url = https://github.com/henryw30/TransUNet.git

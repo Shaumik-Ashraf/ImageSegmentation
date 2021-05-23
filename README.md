@@ -3,16 +3,13 @@ Image segmentation for glomerulii recognition on kidney tissue
 
 Based on [this Kaggle Competition](https://www.kaggle.com/c/hubmap-kidney-segmentation)
 
-[TransUNet](https://github.com/Beckschen/TransUNet)
+Inspiration from [TransUNet](https://github.com/Beckschen/TransUNet)
 
-## TODO
- - run `unet.ipynb` on gpu
- - **edit** and run `transunet.ipynb`
-
-## Setup
- - clone and cd into repo
- - `mkdir data/small`
- - add preprocessed images and masks into data/small/images and data/small/masks respectively
+## MobileTransUNet
+We just hacked MobileNet into the TransUNet hybrid, replacing ResNet. 
+MobileTransUNet achieved a Dice Score of 0.8015 on the Kaggle's 
+public test set **without** pretraining, which is pretty decent, but 
+not SOTA. See code in TransUNet submodule. 
 
 ## Contributors
  - Shaumik Ashraf
